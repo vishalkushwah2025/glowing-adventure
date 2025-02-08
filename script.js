@@ -101,7 +101,7 @@ gsap.from("#about img", {
 
 // ✅ SKILL PAGE ANIMATION
 gsap.to("#page2 #skills", {
-  x: "-100%",
+  x: "-150%",
   duration : 2,
   ease: "none",
   scrollTrigger: {
