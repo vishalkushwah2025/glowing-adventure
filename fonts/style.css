@@ -1,14 +1,14 @@
 @font-face {
     font-family: fontOne;
-    src: url(./fonts/NeueHaasDisplayLight.ttf);
+    src: url(NeueHaasDisplayLight.ttf);
 }
 @font-face {
     font-family: fontTwo;
-    src: url(./fonts/NeueHaasDisplayMediu.ttf);
+    src: url(NeueHaasDisplayMediu.ttf);
 }
 @font-face {
     font-family: fontThree;
-    src: url(./fonts/NeueHaasDisplayRoman.ttf);
+    src: url(NeueHaasDisplayRoman.ttf);
 }
 *{
     margin: 0;
@@ -172,20 +172,29 @@ h1 span{
 #page3{
     height: 100%;
     width: 100%;
-    max-width: 1200px;
     font-family: FontThree;
-    margin: auto;
-    padding: 50px 20px;
 }
-#nav3 h1{
-    font-size: 40px;
+#nav3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav3 h2{
+    font-size: 30px;
     color: #00df82;
     font-weight: 700;
     font-family: fontTwo;
 }
+#page3 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 20px;
+}
 
 #nav3 {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 30px;
 }
 
