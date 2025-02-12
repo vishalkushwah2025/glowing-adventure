@@ -52,15 +52,13 @@ locomotive();
 //     ease: "bounce.out", // Bouncy effect
 // });
 gsap.from("#right img", {
-    opacity: 0,       // Fade-in effect
-    duration: 1.5,    // Slow and smooth
-    scale: 0.8,       // Slight zoom-in effect
-    delay: 0.5,       // Small delay
-    y: 50,            // Moves up smoothly
-    ease: "power2.out" // Soft and natural movement
+  opacity: 0, // Fade-in effect
+  duration: 1.5, // Slow and smooth
+  scale: 0.8, // Slight zoom-in effect
+  delay: 0.5, // Small delay
+  y: 50, // Moves up smoothly
+  ease: "power2.out", // Soft and natural movement
 });
-
-
 
 // ✅ NAVIGATION ANIMATION
 function navGsap() {
@@ -102,7 +100,7 @@ gsap.from("#about img", {
 // ✅ SKILL PAGE ANIMATION
 gsap.to("#page2 #skills", {
   x: "-150%",
-  duration : 2,
+  duration: 2,
   ease: "none",
   scrollTrigger: {
     trigger: "#page2",
@@ -143,7 +141,6 @@ if (img) {
     });
   });
 }
-
 
 // ✅ FORM ANIMATION
 function formAnimation() {
@@ -202,9 +199,9 @@ gsap.from(".h1 span", {
   stagger: 0.15,
 });
 
-gsap.from("#name",{
-    y: 50,
-    opacity: 0,
-    duration: 0.5,
-    delay: 0.3,
-})
+gsap.from("#name", {
+  y: 50,
+  opacity: 0,
+  duration: 0.5,
+  delay: 0.3,
+});
