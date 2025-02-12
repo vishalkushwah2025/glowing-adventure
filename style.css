@@ -87,7 +87,7 @@ html,body{
     color: #FF764B;
 }
 h1 span{
-    color: black;
+    color: rgba(0, 0, 0, 0.559);
     display: inline-block;
 }
 #left p{
@@ -113,7 +113,7 @@ h1 span{
 #right img{
     height: 90%;
     width: 80%;
-    filter: brightness(0.4);
+    filter: brightness(0.3);
     object-fit: cover;
     object-position: center;
     border-radius: 20px;
