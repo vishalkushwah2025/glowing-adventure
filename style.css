@@ -428,7 +428,7 @@ h1 span{
     font-family: fontTwo;
 }
 
-#cursur{
+#cursor{
     height: 15px;
     width: 15px;
     border-radius: 50%;
@@ -441,6 +441,9 @@ h1 span{
     display: flex;
     align-items: center;
     justify-content: center;
+    pointer-events: none;  /* Prevents interference with elements */
+    transition: transform 0.15s ease-out;  /* Smooth animation */
+    will-change: transform; /* Optimized for smoothness */
 
 }
 #down span{
